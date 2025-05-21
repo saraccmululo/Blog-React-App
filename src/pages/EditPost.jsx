@@ -78,7 +78,11 @@ const EditPost = () => {
         <button type="submit" style={{ marginTop: 10 }}>
           Update Post
         </button>
-        <button type="button" onClick={() => handleDelete(Number(id))}>
+        <button
+          type="button"
+          onClick={() => handleDelete(Number(id))}
+          style={{ marginTop: 10, marginLeft: 10 }}
+        >
           Delete
         </button>
       </form>
